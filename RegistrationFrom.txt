@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RegistrationStudents</title>
+</head>
+<body  background="C:\Users\gupta\Downloads\pic.jpg" >
+
+<center>
+		
+<h1>Registration From</h1>
+</center>
+
+First  Name : <input type="text" placeholder="Enter The First Name" />
+	<br><br>
+Middel Name : <input type="text" placeholder="Enter The Middel Name"/>
+	<br><br>
+Last   Name : <input type="text" placeholder="Enter The Last Name"/>  
+
+	<br><br>
+Gender : 
+<select>
+	<option> Male </option>
+	<option>Female </option>
+	<option> Other </option>
+</select> 
+	
+	<br><br>
+Branch :
+<select>
+	<option value = " CSE">
+		CSE
+	</option>
+	<option value ="ME"> ME </option>
+	<option value="IT"> IT </option>
+	<option> Electonics </option>
+
+</select> 
+	<br><br>
+
+Marks  : <input type="digit" placeholder=" Please Enter The Marks " >
+	<br><br>
+Percentage %   <input type="digit" placeholder=" Please Enter The percentage " size=" 24"/>
+	<br><br>
+
+Phone No. <input type="digit" placeholder="Please Enter Your vailed Number" size="28" />
+	<br><br>
+
+Address: 
+	<br>
+<textarea cols="82" rows="6" name="Address"  onresize="400">
+	
+		</textarea> 
+	<br><br>
+
+Email : <input type="text" name="email" placeholder="Enter your Email"/>
+	<br><br>
+	
+Password: <input type="Password" name="pwd" id =" pwd" placeholder=" Enter the Password" />
+<!-- <label for="pwd"> Password</label> -->
+
+	<br><br>
+Re_type Password :<input type="Password" name="pwd" id =" repwd" placeholder=" Enter the Re Password" />
+	<br><br>
+<center>
+	<input type="button" value="Submit" />
+	</center>
+	<br><br>
+</body>
+</html>
